@@ -1,0 +1,46 @@
+{
+	"id": "0e580a39-a31b-fbfd-0ca7-6f914a28a295",
+	"name": "add",
+	"description": "",
+	"order": [
+		"73a11a69-adeb-ba27-93ac-ca8d38a06f16"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553812001164,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "73a11a69-adeb-ba27-93ac-ca8d38a06f16",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/cache/add",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0e580a39-a31b-fbfd-0ca7-6f914a28a295",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:8080/cache/add",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553812003302,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"pratik1\":\"joshi\"\n}"
+		}
+	]
+}

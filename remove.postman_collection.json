@@ -1,0 +1,44 @@
+{
+	"id": "ebea56e5-c232-a811-b03c-4419e36682f0",
+	"name": "remove",
+	"description": "",
+	"order": [
+		"6f2596db-5219-7dfb-cc3e-01b1dfa07447"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553826987829,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "6f2596db-5219-7dfb-cc3e-01b1dfa07447",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/cache/remove/pratik",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1553827082010,
+			"name": "localhost:8080/cache/remove/pratik",
+			"description": "",
+			"collectionId": "ebea56e5-c232-a811-b03c-4419e36682f0",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}

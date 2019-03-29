@@ -1,0 +1,29 @@
+
+1)Add Data to the cache 
+URL:localhost:8080/cache/add
+content-type:application/json
+methodtype:post
+payload:{"pratik":"joshi"}
+response:true/false
+status:201/200
+
+
+2) Remove Data from cache
+URL:localhost:8080/cache/remove/{key}
+content-type:application/json
+methodtype:delete
+response:true/false
+status:200
+
+3) Peek Data from cache
+URL:localhost:8080/cache/peek
+content-type:application/json
+methodtype:GET
+response:{key:"pratik",value:"joshi"}
+status:200/204
+
+4) take data from cache
+URL:localhost:8080/cache/take
+methodtype:GET
+response:{key:"pratik",value:"joshi"}
+status:200

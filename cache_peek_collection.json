@@ -1,0 +1,43 @@
+{
+	"id": "c1ab00ff-56dd-7e2c-64bf-23789219c04d",
+	"name": "Demo",
+	"description": "",
+	"order": [
+		"f1424290-0e0c-edc3-59b7-621752ec4bf1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553810249073,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "f1424290-0e0c-edc3-59b7-621752ec4bf1",
+			"url": "localhost:8080/cache/peek",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true,
+					"warning": ""
+				}
+			],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "localhost:8080/cache/peek",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "c1ab00ff-56dd-7e2c-64bf-23789219c04d"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"id": "858fb871-8349-aac0-1ea6-64989d45a1a4",
+	"name": "cache_take",
+	"description": "",
+	"order": [
+		"fd441c9f-3079-d6fe-d1bb-ca9ab20cf9b3"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1553826920865,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "fd441c9f-3079-d6fe-d1bb-ca9ab20cf9b3",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/cache/take",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "858fb871-8349-aac0-1ea6-64989d45a1a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/cache/take",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1553826925037,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
